@@ -31,6 +31,9 @@ DB_API_HEADERS = {
 }
 
 # Stations we track (start small, expand later)
-STATIONS = {
-    "8011160": {"name": "Berlin Hbf", "ds100": "BLS"},
+STATIONS = STATIONS = {
+    "8011160": {"name": "Berlin Hbf",       "ds100": "BLS"},
+    "8000261": {"name": "München Hbf",      "ds100": "MH"},
+    "8000105": {"name": "Frankfurt (M) Hbf","ds100": "FF"},
+    "8000207": {"name": "Köln Hbf",         "ds100": "KK"},
 }
